@@ -1,0 +1,22 @@
+Bài 5. Tính giai thừa
+ 
+Tính n giai thừa bằng đệ quy.
+
+Chú ý trường hợp n = 0 nên bạn cần để điều kiện dừng khi n = 0, để khi n = 1 nếu input n = 0 sẽ không có điểm dừng đệ quy
+
+Đầu vào
+Số nguyên dương n
+
+Giới hạn
+0≤n≤10
+
+Đầu ra
+Kết quả của N!
+
+Ví dụ :
+Input 01
+Copy
+6
+Output 01
+Copy
+720

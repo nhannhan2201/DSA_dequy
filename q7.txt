@@ -1,0 +1,22 @@
+Bài 7. Tổ hợp
+
+Cho 2 số nguyên dương N và K. Hãy tính tổ hợp chập K của N. Tiện thể các bạn ôn lại một vài tính chất của tổ hợp chập K của N nhé.
+
+
+
+Đầu vào
+2 số nguyên dương N và K.
+
+Giới hạn
+0≤k≤n≤10.
+
+Đầu ra
+Kết quả của tổ hợp chập K của N.
+
+Ví dụ :
+Input 01
+Copy
+10 2
+Output 01
+Copy
+45

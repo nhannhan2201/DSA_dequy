@@ -1,0 +1,21 @@
+Bài 1. Tính tổng 1
+Tính tổng hàm S(n) = 1 + 2 + 3 + 4 + .. + n bằng đệ quy.
+
+Gợi ý : Bài toán cơ sở : S(1) = 1, Công thức truy hồi : S(n) = n + S(n - 1) với n > 1
+
+Đầu vào
+Số nguyên dương n.
+
+Giới hạn
+0≤n≤1000
+
+Đầu ra
+In ra S(n)
+
+Ví dụ :
+Input 01
+Copy
+773
+Output 01
+Copy
+299151

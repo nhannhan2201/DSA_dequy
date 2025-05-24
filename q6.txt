@@ -1,0 +1,22 @@
+Bài 6. Fibonacci
+ 
+Dãy số fibonacci là dãy số thỏa mãn : F1=0, F2=1, Fn=Fn-1+Fn-2. Hãy tìm số Fibonacci thứ n sử dụng đệ quy.
+
+Lưu ý : Code Fibonacci bằng đệ quy sẽ có độ phức tạp là O(1.618^n) nên chỉ áp dụng với n nhỏ, n lớn các bạn dùng vòng lặp, mảng
+
+Đầu vào
+Số nguyên dương n.
+
+Giới hạn
+1≤n≤15
+
+Đầu ra
+In ra số Fibonacci thứ n.
+
+Ví dụ :
+Input 01
+Copy
+1
+Output 01
+Copy
+0

@@ -1,0 +1,22 @@
+Bài 2. Tính tổng 2
+ 
+Tính tổng hàm S(n) = 1^2 + 2^2 + 3^2 + 4^2 + .. + n^2 bằng đệ quy.
+
+Gợi ý : Bài toán cơ sở : S(1) = 1, Công thức truy hồi : S(n) = n^2 + S(n - 1) với n > 1
+
+Đầu vào
+Số nguyên dương n
+
+Giới hạn
+0≤n≤1000
+
+Đầu ra
+In ra kết quả của S(n)
+
+Ví dụ :
+Input 01
+Copy
+53
+Output 01
+Copy
+51039

@@ -1,0 +1,22 @@
+Bài 4. Tính tổng 4
+ 
+Tính tổng hàm S(n) = -1 + 2 -3 + 4 - 5 + 6 + ... + (-1)^n * n bằng đệ quy
+
+Gợi ý : Chia ra 2 trường hợp n chẵn và n lẻ
+
+Đầu vào
+Số nguyên dương n
+
+Giới hạn
+1≤n≤10^3
+
+Đầu ra
+In ra kết quả S(n)
+
+Ví dụ :
+Input 01
+Copy
+919
+Output 01
+Copy
+-460

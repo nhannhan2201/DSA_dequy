@@ -1,0 +1,22 @@
+Bài 9. Lũy thừa nhị phân
+ 
+Cho 2 số nguyên không âm a và b. Hãy tính a^b%(10^9+7). Kiến thức bạn cần sử dụng là Binary Exponentiation.
+
+
+
+Đầu vào
+2 số nguyên dương a, b
+
+Giới hạn
+1≤a,b≤10^9
+
+Đầu ra
+In ra kết quả của bài toán.
+
+Ví dụ :
+Input 01
+
+2 10
+Output 01
+
+1024

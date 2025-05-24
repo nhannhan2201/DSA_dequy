@@ -1,0 +1,22 @@
+Bài 8. UCLN & BCNN
+ 
+Cho 2 số a và b, hãy tính ước chung lớn nhất và bội chung nhỏ nhất của 2 số a và b. Trong đó hàm UCLN sử dụng đệ quy để tính.
+
+Gợi ý : BCNN(a, b) = a / UCLN * b thay vì a * b / UCLN để tránh việc lấy a * b bị tràn long long
+
+Đầu vào
+2 số nguyên dương a và b.
+
+Giới hạn
+1≤a,b≤10^12
+
+Đầu ra
+In ra UCLN và BCNN của 2 số. Dữ liệu đảm bảo UCLN của 2 số nằm trong khoảng số nguyên 64 bit.
+
+Ví dụ :
+Input 01
+Copy
+10 20
+Output 01
+Copy
+10 20

@@ -1,0 +1,20 @@
+Bài 10. Tính tổng 5
+ 
+Tính tổng S(n) = 1/1 + 1/2 + 1/3 + ... + 1/n bằng đệ quy.
+
+Đầu vào
+Số nguyên dương n.
+
+Giới hạn
+1≤n≤1000
+
+Đầu ra
+In ra S(n) lấy 3 số sau dấu phẩy.
+
+Ví dụ :
+Input 01
+Copy
+18
+Output 01
+Copy
+3.495
