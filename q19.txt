@@ -1,0 +1,20 @@
+Bài 19. Kiểm tra chữ số chẵn
+ 
+Cho số nguyên không âm N, hãy kiểm tra xem tất cả các chữ số của N có phải đều là số chẵn hay không?
+
+Đầu vào
+Số nguyên không âm N.
+
+Giới hạn
+0≤n≤10^18
+
+Đầu ra
+In ra YES nếu n toàn chữ số chẵn, ngược lại in ra NO.
+
+Ví dụ :
+Input 01
+Copy
+2280820
+Output 01
+Copy
+YES

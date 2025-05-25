@@ -1,0 +1,30 @@
+Bài 28. Số lần xuất hiện
+ 
+Cho một mảng số nguyên A gồm N phần tử đã được sắp xếp tăng dần, hãy đếm số lần xuất hiện của phần tử X trong mảng bằng cách viết hàm tìm vị trí xuất hiện đầu tiên của X trong mảng, hàm tìm vị trí xuất hiện cuối cùng của x trong mảng, sau đó lấy vị trí cuối trừ vị trí đầu cộng thêm 1 sẽ ra số lần xuất hiện của X trong mảng. Như vậy độ phức tạp của thuật toán sẽ là O(logN).
+
+Bạn cần viết 2 hàm tìm vị trí đầu tiên và cuối cùng
+
+Đầu vào
+Dòng đầu tiên là số nguyên dương N.
+
+Dòng thứ 2 là N số nguyên trong mảng được viết cách nhau một dấu cách.
+
+Dòng thứ 3 là số nguyên dương X.
+
+Giới hạn
+1≤n≤1000
+
+1≤X,A[i]≤10^6
+
+Đầu ra
+In ra số lần xuất hiện của X trong mảng.
+
+Ví dụ :
+Input 01
+Copy
+6
+1 2 2 3 3 4
+2
+Output 01
+Copy
+2

@@ -1,0 +1,28 @@
+Bài 27. Upper bound
+ 
+Cho một mảng số nguyên A gồm N phần tử đã được sắp xếp giảm dần, hãy viết hàm lower bound bằng đệ quy giúp tìm vị trí cuối cùng của phần tử lớn hơn phần tử X cho trước hoặc xác định rằng không có phần tử nào trong mảng lớn hơn X. Tương tự như thuật toán Binary search, độ phức tạp của hàm upper_bound này cũng là O(logN).
+
+Đầu vào
+Dòng đầu tiên là số nguyên dương N.
+
+Dòng thứ 2 là N số nguyên trong mảng được viết cách nhau một dấu cách.
+
+Dòng thứ 3 là số nguyên dương X.
+
+Giới hạn
+1≤n≤1000
+
+1≤X,A[i]≤10^6
+
+Đầu ra
+In ra vị trí cuối cùng của phần tử lớn hơn X trong mảng, nếu trong mảng không có phần tử nào lớn hơn X thì in ra N.
+
+Ví dụ :
+Input 01
+Copy
+6
+6 5 5 4 3 2
+4
+Output 01
+Copy
+2

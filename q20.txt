@@ -1,0 +1,33 @@
+Bài 20. Đếm số thao tác
+ 
+Cho số nguyên dương N. Bạn được thực hiện 3 thao tác sau đây:
+
+Lấy N chia cho 2 nếu N chia hết cho 2.
+
+Lấy N chia hết cho 3 nếu N chia hết cho 3.
+
+Giảm N đi 1 đơn vị. Hãy đếm số thao tác ít nhất để biến đổi N về 1.
+
+Gợi ý : Gọi F(n) là hàm đếm số thao tác biến đổi n về 1, khi đó F(n) = min(F(n / 2), F(n / 3), F(n - 1)) chứ không được return về 1 trong 3 hàm kia. Bạn cần gọi 3 hàm đệ quy tương ứng với 3 thao tác, sau đó trả về số nhỏ nhất trong 3 hàm đó
+
+Đầu vào
+Số nguyên dương N.
+
+Giới hạn
+1≤n≤50
+
+Đầu ra
+In ra số thao tác tối thiểu cần thực hiện.
+
+Ví dụ :
+Input 01
+Copy
+38
+Output 01
+Copy
+5
+Giải thích :
+N = N / 2 = 19 2. N = N - 1 = 18 3. N = N / 3 = 6 4. N = N / 2 = 3 5. N = N / 3 = 1
+Input 02
+Copy
+10

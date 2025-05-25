@@ -1,0 +1,28 @@
+Bài 12. Thập phân sang hệ thập lục phân
+ 
+Cho một số nguyên không âm N, hãy in ra dạng biểu diễn của N dưới hệ 16.
+
+Gợi ý : Để điều kiện dừng là khi N < 16 sẽ dễ xử lý trường hợp khi N = 0 hơn
+
+Đầu vào
+Số nguyên không âm N
+
+Giới hạn
+0≤n≤10^18
+
+Đầu ra
+Biểu diễn hệ 16 của số nguyên N
+
+Ví dụ :
+Input 01
+Copy
+995
+Output 01
+Copy
+3E3
+Input 02
+Copy
+0
+Output 02
+Copy
+0

@@ -1,0 +1,20 @@
+Bài 13. Tìm tổng chữ số của N
+ 
+Cho một số nguyên không âm N, hãy tính tổng chữ số của N sử dụng kỹ thuật đệ quy.
+
+Đầu vào
+Số nguyên không âm N
+
+Giới hạn
+0≤n≤10^18
+
+Đầu ra
+Tổng các chữ số của N
+
+Ví dụ :
+Input 01
+Copy
+123456789
+Output 01
+Copy
+45

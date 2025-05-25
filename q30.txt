@@ -1,0 +1,25 @@
+Bài 30. Merge sort
+ 
+Cho một mảng số nguyên A gồm N phần tử, hãy sắp xếp mảng tăng dần bằng thuật toán sắp xếp trộn.
+
+Đầu vào
+Dòng đầu tiên là số nguyên dương N
+
+Dòng thứ 2 là N số nguyên trong mảng được viết cách nhau một dấu cách.
+
+Giới hạn
+1≤n≤1000
+
+1≤A[i]≤10^6
+
+Đầu ra
+In ra mảng được sắp xếp theo thứ tự tăng dần.
+
+Ví dụ :
+Input 01
+Copy
+5
+6 7 8 1 2
+Output 01
+Copy
+1 2 6 7 8

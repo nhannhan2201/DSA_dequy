@@ -1,0 +1,26 @@
+Bài 11. Thập phân sang nhị phân
+ 
+Cho một số nguyên không âm N, hãy in ra dạng biểu diễn nhị phân của số N.
+
+Đầu vào
+Số nguyên không âm N
+
+Giới hạn
+0≤n≤10^18
+
+Đầu ra
+Biểu diễn nhị phân của số nguyên N.
+
+Ví dụ :
+Input 01
+Copy
+0
+Output 01
+Copy
+0
+Input 02
+Copy
+7
+Output 02
+Copy
+111

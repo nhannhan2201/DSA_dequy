@@ -1,0 +1,23 @@
+Bài 29. Tháp Hà Nội
+ 
+Bài toán Tháp Hà Nội bao gồm ba cọc(1, 2 và 3) và n đĩa tròn có kích thước khác nhau. Ban đầu, cọc 1 có tất cả các đĩa, theo thứ tự kích thước tăng dần từ trên xuống dưới. Yêu cầu là để di chuyển tất cả các đĩa sang cột thứ 3 bằng cách sử dụng cột ở giữa. Trên mỗi lần di chuyển, bạn có thể di chuyển đĩa trên cùng từ cột này sang cột khác. Ngoài ra, không được phép đặt một đĩa lớn hơn trên một đĩa nhỏ hơn trong quá trình di chuyển các đĩa. Nhiệm vụ của bạn là tìm ra giải pháp giảm thiểu số lần di chuyển.
+
+Đầu vào
+Số nguyên dương n là số lượng đĩa ban đầu ở cọc 1.
+
+Giới hạn
+1≤n≤10
+
+Đầu ra
+Dòng đầu tiên in số lượng lần di chuyển các đĩa tối thiểu. Các dòng tiếp theo mỗi dòng ghi ra 2 cọc tương ứng với thứ tự chuyển đĩa ở bước đó.
+
+Ví dụ :
+Input 01
+Copy
+2
+Output 01
+Copy
+3
+1 2
+1 3
+2 3

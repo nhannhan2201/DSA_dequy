@@ -1,0 +1,21 @@
+Bài 16. Chữ số lớn nhất, nhỏ nhất
+ Cho một số nguyên không âm N, hãy in ra chữ số lớn nhất và chữ số nhỏ nhất của N.
+
+Gợi ý : Các bạn viết 2 hàm tìm chữ số nhỏ nhất và lớn nhất.
+
+Đầu vào
+Số nguyên dương N
+
+Giới hạn
+10≤n≤10^18
+
+Đầu ra
+Chữ số lớn nhất và nhỏ nhất của N.
+
+Ví dụ :
+Input 01
+Copy
+1256782
+Output 01
+Copy
+8 1
